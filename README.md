@@ -1,5 +1,5 @@
 # SimpleDialogs_WPF_PS1
-![alt text](https://github.com/damienvanrobaeys/RadialMenu_PS1_WPF/blob/master/gif/radialmenu1gif.gif)
+![alt text](https://github.com/damienvanrobaeys/SimpleDialogs_WPF_PS1/blob/master/GIF/simpledialog_basic.gif)
 
 **Cool dialogs to sue with PowerShell and WPF**
 
