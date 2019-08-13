@@ -1,7 +1,7 @@
 # SimpleDialogs WPF PS1 Update
 ![alt text](https://github.com/damienvanrobaeys/SimpleDialogs_WPF_PS1/blob/master/GIF/simpledialog_basic.gif)
 
-**Cool dialogs to sue with PowerShell and WPF**
+**Cool dialogs to use with PowerShell and WPF**
 
 > *View the full blog post here*
 
