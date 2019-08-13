@@ -1,0 +1,49 @@
+﻿
+<Controls:MetroWindow      
+
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+xmlns:dialogs="clr-namespace:SimpleDialogs.Controls;assembly=SimpleDialogs"
+xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+xmlns:helpers="clr-namespace:SimpleDialogs.Demo.Helpers"
+xmlns:enumerators="clr-namespace:SimpleDialogs.Enumerators;assembly=SimpleDialogs"
+xmlns:system="clr-namespace:System;assembly=mscorlib"
+xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+LeftWindowCommandsOverlayBehavior="Never"
+Title="DEMO - SimpleDialogs"
+Height="400"
+Width="700"
+BorderBrush="Blue"
+BorderThickness="1"
+>
+
+<Window.Resources>
+	<ResourceDictionary>
+		<ResourceDictionary.MergedDictionaries>
+			<ResourceDictionary Source="pack://application:,,,/SimpleDialogs;component/Themes/Light.xaml" />			
+			<ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+			<ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+			<ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+			<ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Cobalt.xaml" />
+			<ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />			
+		</ResourceDictionary.MergedDictionaries>
+	</ResourceDictionary>
+</Window.Resources>		
+		
+    <Grid>
+		<StackPanel Orientation="Vertical">
+		<Button Name="Information" Content="Information" Width="90" Height="20" Margin="0,10,0,0"/>
+		<Button Name="Success" Content="Success" Width="90" Height="20" Margin="0,10,0,0"/>
+		<Button Name="input" Content="input" Width="90" Height="20" Margin="0,10,0,0"/>		
+		<Button Name="progress" Content="progress" Width="90" Height="20" Margin="0,10,0,0"/>		
+		<dialogs:DialogContainer Background="Red" Name="eeeeee"/>
+		
+		</StackPanel>
+		
+		
+
+    </Grid>
+</Controls:MetroWindow>        
+ 
