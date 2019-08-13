@@ -3,7 +3,7 @@
 
 **Cool dialogs to use with PowerShell and WPF**
 
-> *View the full blog post here*
+> *View the full blog post here http://www.systanddeploy.com/2019/08/modern-dialog-with-powershell-and-wpf.html*
 
 The repo is composed of two folders:
 1. Version_1.0.1: Previous version of CustomDialogs
